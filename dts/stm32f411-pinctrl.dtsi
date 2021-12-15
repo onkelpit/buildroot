@@ -67,14 +67,6 @@
 				gpio-ranges = <&pinctrl 0 64 16>;
 			};
 
-			gpiof: gpio@40021400 {
-				gpio-ranges = <&pinctrl 0 80 16>;
-			};
-
-			gpiog: gpio@40021800 {
-				gpio-ranges = <&pinctrl 0 96 16>;
-			};
-
 			gpioh: gpio@40021c00 {
 				gpio-ranges = <&pinctrl 0 112 16>;
 			};

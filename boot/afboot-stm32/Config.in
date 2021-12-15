@@ -4,4 +4,4 @@ config BR2_TARGET_AFBOOT_STM32
 	help
 	  afboot-stm32 is a very small bootloader for STM32 platforms
 
-	  https://github.com/mcoquelin-stm32/afboot-stm32
+	  https://github.com/onkelpit/afboot-stm32

@@ -57,7 +57,7 @@
 	compatible = "st,stm32f411i-disco", "st,stm32f411";
 
 	chosen {
-		bootargs = "root=/dev/ram";
+		bootargs = "root=/dev/ram0 rw console=ttySTM0,115200";
 		stdout-path = "serial0:115200n8";
 	};
 
@@ -152,6 +152,12 @@
 
 &usart1 {
 	pinctrl-0 = <&usart1_pins_a>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&usart2 {
+	pinctrl-0 = <&usart2_pins_a>;
 	pinctrl-names = "default";
 	status = "okay";
 };

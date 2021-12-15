@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-AFBOOT_STM32_VERSION = 0.2
-AFBOOT_STM32_SITE = $(call github,mcoquelin-stm32,afboot-stm32,v$(AFBOOT_STM32_VERSION))
+AFBOOT_STM32_VERSION = 0.4
+AFBOOT_STM32_SITE = $(call github,onkelpit,afboot-stm32,v$(AFBOOT_STM32_VERSION))
 AFBOOT_STM32_INSTALL_IMAGES = YES
 AFBOOT_STM32_INSTALL_TARGET = NO
 
